@@ -1,23 +1,34 @@
 /* 
 ================================================================================
 WSP COMPONENT LIBRARY STYLESHEET
+
+colors I plan to use:
+#F6B1C3 - light pink
+#F0788C - deep pink
+#DE264C - pinkish redish
+#BC0D35 - red
+#A20D1E - dark red
+
+
+
 ================================================================================ */
 body{
-    background-color: black;
+    background:url('../img/panda-madness.gif') repeat;
+    color: white;
 }
 
 #wrapper{
     margin: 0 auto 0 auto;
     width: 960px;
-    background-color: grey;
+    background-color:hsla(350, 80%, 71%, 0.87) ;
 }
 
 
 /* HEADER SPECIFIC ======================================== */
 #change{
     width: 150px;
-    border: 5px solid blue;
     height:100px ;
+    background: url("../img/pda.png");
 }
 
 /* ABOUT SPECIFIC ======================================== */
