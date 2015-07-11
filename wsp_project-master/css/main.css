@@ -19,18 +19,32 @@ body{
 
 #wrapper{
     margin: 0 auto 0 auto;
-    width: 960px;
-    background-color:hsla(350, 80%, 71%, 0.87) ;
+    width: 980px;
+    background-color:hsla(350, 80%, 71%, .98) ;
+    padding: 25px;
 }
 
 
 /* HEADER SPECIFIC ======================================== */
 #change{
-    width: 150px;
-    height:100px ;
-    background: url("../img/pda.png");
+    width: 290px;
+    /*height:100px ;*/
+    /*background: url("../img/pda.png");*/
+    margin: 0;
+}
+
+header h1{
+    float: right;
+}
+
+header #change{
+    margin:0;
 }
 
 /* ABOUT SPECIFIC ======================================== */
 
 /* COMPONENTS SPECIFIC ======================================== */
+
+.component{
+    width: 960px;
+}
