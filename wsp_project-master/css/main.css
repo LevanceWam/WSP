@@ -47,4 +47,9 @@ header #change{
 
 .component{
     width: 960px;
+    border: 5px solid #DE264C;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
 }
