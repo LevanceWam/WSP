@@ -3,6 +3,36 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+
+section{
+    width: 100%;
+    background: #333;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    max-width:1000px ;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+#featured-games{
+    width:calc(100%/3*2);
+    float: left;
+}
+
+#top-games{
+
+}
+
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
