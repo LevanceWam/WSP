@@ -30,12 +30,18 @@ ul li{
 a{
     text-decoration: none;
     color: gold;
+
 }
 
-a[href*='Media']{
-    margin-right: auto;
-    margin-left: auto;
-    width: 480px;
+a[href*="Media"]{
+    width:300px;
+
+    margin-left: 390px;
+    display: inline-block;
 }
-li a[href*='']
+
+a[href*="Media"]:before{
+    content: "\00a9 2010 ";
+}
+
 /* HEADER ======================================== */
