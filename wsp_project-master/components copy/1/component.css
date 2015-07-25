@@ -4,5 +4,59 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+html{font-size: 62.5%}
+section{
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px lightgrey;
+    background: #111111;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+h2{
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    background: lightgrey;
+    text-transform: uppercase;
+}
+a[href*='drake']{
+    background-image: url("component.jpg");
+    width: 372px;
+    height: 300px;
+    display: inline-block;
+}
+
+a[href*='dream']{
+    background-image: url("component.jpg");
+    width: 235px;
+    height: 147px;
+    display: inline-block;
+    position: relative;
+    bottom: 153px;
+    left: 5px;
+}
+
+a[href*='tyga']{
+    background-image: url("component.jpg");
+    width: 235px;
+    height: 147px;
+    display: inline-block;
+    position: relative;
+    bottom:150px ;
+    left: 380px;
+}
+
+a strong{
+   float: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+
+
 
 /* HEADER ======================================== */

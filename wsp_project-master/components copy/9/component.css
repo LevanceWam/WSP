@@ -4,5 +4,38 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #111111;
+}
 
+ul {
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
+}
+
+ul li{
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width:15.5%;
+    font-size: 1em;
+    color: gold;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+a[href*='Media']{
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
+}
+li a[href*='']
 /* HEADER ======================================== */
