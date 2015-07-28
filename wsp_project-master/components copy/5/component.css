@@ -4,5 +4,59 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+html{font-size: 62.5%}
+body{
+    font-size: 1.2rem;
+    color: #fff;
+    width: 1230px;
+    background-color: #000000;
+
+}
+
+h3{
+    font-weight: normal;
+}
+
+#chop{
+    width: 190px;
+    height: 200px;
+    background: url("chop.png") no-repeat;
+    text-indent: -9999px;
+}
+#grey{
+    width: 190px;
+    height: 200px;
+    background: url("grey.png") no-repeat;
+    text-indent: -9999px;
+}
+#scandal{
+    width: 190px;
+    height: 200px;
+    background: url("scam.png") no-repeat;
+    text-indent: -9999px;
+}
+#pretty{
+    width: 190px;
+    height: 200px;
+    background: url("pretty.png") no-repeat;
+    text-indent: -9999px;
+}
+#son{
+    width: 190px;
+    height: 200px;
+    background: url("son.png") no-repeat;
+    text-indent: -9999px;
+}
+#friends{
+    width: 190px;
+    height: 200px;
+    background: url("friends.png") no-repeat;
+    text-indent: -9999px;
+}
+
+section{
+    float: left;
+    margin:5px;
+}
 
 /* HEADER ======================================== */
