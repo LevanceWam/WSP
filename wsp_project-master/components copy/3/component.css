@@ -4,5 +4,44 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
 
+#g1{
+    width:305px;
+    height: 400px;
+    background: url("g1.png") no-repeat;
+}
+#g2{
+    width:305px;
+    height: 400px;
+    background: url("g2.png") no-repeat;
+}
+#g3{
+    width:305px;
+    height: 400px;
+    background: url("g3.png") no-repeat;
+}
+#g4{
+    width:305px;
+    height: 400px;
+    background: url("g4.png") no-repeat;
+}
+#g5{
+    width:305px;
+    height: 400px;
+    background: url("g5.png") no-repeat;
+}
+#g6{
+    width:305px;
+    height: 400px;
+    background: url("g6.png") no-repeat;
+}
+
+section{
+    float: left;
+    margin:10px;
+}
 /* HEADER ======================================== */
